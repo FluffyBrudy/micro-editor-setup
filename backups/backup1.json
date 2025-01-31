@@ -1,0 +1,17 @@
+{
+    "colorschema": "simple",
+    "ftoptions": false,
+    "lsp": {
+        "server": {
+            "go": "gopls",
+            "python": "pylsp",
+            "typescript": {
+                "config": {
+                    "importMap": "./import_map.json"
+                },
+                "server": "deno"
+            }
+        }
+    },
+    "lsp.formatOnSave": true
+}

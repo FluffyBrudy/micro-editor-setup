@@ -1,0 +1,11 @@
+{
+    "lsp": {
+        "autoComplete": true,
+        "servers": {
+            "python": "pylsp"
+        }
+    },
+    "run": {
+        "py": "python3.12 ${file}"
+    }
+}
